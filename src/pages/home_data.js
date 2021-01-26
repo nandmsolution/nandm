@@ -1,7 +1,6 @@
 const home_info = [
   {
-    image:
-      "%PUBLIC_URL%/assets/slider_img/annie-spratt-hCb3lIB8L8E-unsplash.jpg",
+    image: "/nandm/assets/slider_img/annie-spratt-hCb3lIB8L8E-unsplash.jpg",
     caption: {
       heading: "Who we are?",
       desc:
@@ -9,8 +8,7 @@ const home_info = [
     },
   },
   {
-    image:
-      "%PUBLIC_URL%/assets/slider_img/david-rangel-4m7gmLNr3M0-unsplash.jpg",
+    image: "/nandm/assets/slider_img/david-rangel-4m7gmLNr3M0-unsplash.jpg",
     caption: {
       heading: "What we do?",
       desc:
@@ -19,7 +17,7 @@ const home_info = [
   },
   {
     image:
-      "%PUBLIC_URL%/assets/slider_img/charles-forerunner-3fPXt37X6UQ-unsplash.jpg",
+      "/nandm/assets/slider_img/charles-forerunner-3fPXt37X6UQ-unsplash.jpg",
     caption: {
       heading: "What are you waiting for?",
       desc:
