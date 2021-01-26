@@ -13,10 +13,10 @@ const serviceData = {
 };
 
 const service_url = [
-  "assets/489656.jpg",
-  "assets/app-development--app-design--with-copyspace.jpg",
-  "assets/Online-Marketing-Wallpaper-15.jpg",
-  "assets/20180208181640-GettyImages-693146758.jpg",
+  "%PUBLIC_URL%/assets/489656.jpg",
+  "%PUBLIC_URL%/assets/app-development--app-design--with-copyspace.jpg",
+  "%PUBLIC_URL%/assets/Online-Marketing-Wallpaper-15.jpg",
+  "%PUBLIC_URL%/assets/20180208181640-GettyImages-693146758.jpg",
 ];
 
 export { serviceData, service_url };
