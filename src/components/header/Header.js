@@ -13,7 +13,7 @@ const Header = () => {
       <header>
         <Navbar expanded={expanded} fixed="top" bg="light" expand="lg">
           <Navbar.Brand className="logo">
-            <Nav.Link href="/"> N&M </Nav.Link>
+            <Nav.Link to="/"> N&M </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle
             onClick={() => setExpanded(expanded ? false : "expanded")}
@@ -23,39 +23,40 @@ const Header = () => {
             <Nav className="ml-auto">
               <Nav.Link
                 onClick={() => setExpanded(false)}
-                href="/"
                 className="d-flex justify-content-end"
-                component={Link}
               >
-                {" "}
-                Home{" "}
+                <Link to="/" style={{ color: "gray" }}>
+                  {" "}
+                  Home{" "}
+                </Link>
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpanded(false)}
-                href="/services"
                 className="d-flex justify-content-end"
                 component={Link}
               >
-                {" "}
-                Services{" "}
+                <Link to="/services" style={{ color: "gray" }}>
+                  {" "}
+                  Services{" "}
+                </Link>
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpanded(false)}
-                href="/about-us"
                 className="d-flex justify-content-end"
-                component={Link}
               >
-                {" "}
-                About Us{" "}
+                <Link to="/about-us" style={{ color: "gray" }}>
+                  {" "}
+                  About Us{" "}
+                </Link>
               </Nav.Link>
               <Nav.Link
                 onClick={() => setExpanded(false)}
-                href="/contact-us"
                 className="d-flex justify-content-end"
-                component={Link}
               >
-                {" "}
-                Contact Us{" "}
+                <Link to="/contact-us" style={{ color: "gray" }}>
+                  {" "}
+                  Contact Us{" "}
+                </Link>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
