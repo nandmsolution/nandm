@@ -1,5 +1,6 @@
 // or less ideally
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import { useState } from "react";
 import "./style.css";
@@ -24,6 +25,7 @@ const Header = () => {
                 onClick={() => setExpanded(false)}
                 href="/"
                 className="d-flex justify-content-end"
+                component={Link}
               >
                 {" "}
                 Home{" "}
@@ -32,6 +34,7 @@ const Header = () => {
                 onClick={() => setExpanded(false)}
                 href="/services"
                 className="d-flex justify-content-end"
+                component={Link}
               >
                 {" "}
                 Services{" "}
@@ -40,6 +43,7 @@ const Header = () => {
                 onClick={() => setExpanded(false)}
                 href="/about-us"
                 className="d-flex justify-content-end"
+                component={Link}
               >
                 {" "}
                 About Us{" "}
@@ -48,6 +52,7 @@ const Header = () => {
                 onClick={() => setExpanded(false)}
                 href="/contact-us"
                 className="d-flex justify-content-end"
+                component={Link}
               >
                 {" "}
                 Contact Us{" "}
