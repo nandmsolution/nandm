@@ -4,7 +4,7 @@ import About from "./pages/about/About";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./pages/contact-us/ContactUs";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 function App() {
