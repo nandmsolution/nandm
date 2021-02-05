@@ -27,7 +27,7 @@ const Header = () => {
               >
                 <Link to="/" style={{ color: "gray" }}>
                   {" "}
-                  Home{" "}
+                  HOME{" "}
                 </Link>
               </Nav.Link>
               <Nav.Link
@@ -37,7 +37,7 @@ const Header = () => {
               >
                 <Link to="/services" style={{ color: "gray" }}>
                   {" "}
-                  Services{" "}
+                  SERVICES{" "}
                 </Link>
               </Nav.Link>
               <Nav.Link
@@ -46,7 +46,7 @@ const Header = () => {
               >
                 <Link to="/about-us" style={{ color: "gray" }}>
                   {" "}
-                  About Us{" "}
+                  ABOUT US{" "}
                 </Link>
               </Nav.Link>
               <Nav.Link
@@ -55,7 +55,7 @@ const Header = () => {
               >
                 <Link to="/contact-us" style={{ color: "gray" }}>
                   {" "}
-                  Contact Us{" "}
+                  CONTACT US{" "}
                 </Link>
               </Nav.Link>
             </Nav>
